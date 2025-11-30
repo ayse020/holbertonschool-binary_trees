@@ -24,5 +24,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 void binary_tree_print(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree); /* Add this line */
+size_t binary_tree_height(const binary_tree_t *tree); /* Add this line if missing */
+size_t binary_tree_size(const binary_tree_t *tree); /* Add this line if missing */
 
 #endif /* BINARY_TREES_H */
